@@ -28,7 +28,7 @@ In my case I'm going to create a folder in the `C` drive called `LibTorch` and i
 
 After downloading and extracting `LibTorch` copy the path of where it is located in my case libtorch is located in the `C` drive:
 
-<img src="/images/0.png" width="100%" alt=""/>
+<img src="https://github.com/CrispenGari/ai-and-robotics-cpp/blob/main/libtorch/00_SETUP/images/0.png" width="100%" alt=""/>
 
 the path will be:
 
@@ -63,7 +63,7 @@ endif (MSVC)
 
 Click the pointed dropdown from the figure
 
-<img src="/images/1.png" width="100%" alt=""/>
+<img src="https://github.com/CrispenGari/ai-and-robotics-cpp/blob/main/libtorch/00_SETUP/images/1.png" width="100%" alt=""/>
 
 - Then select **`Manage Configurations`**.
 - Scroll down and find where it says **Command Arguments**
@@ -85,7 +85,7 @@ So my **`CMake Command Arguments`** will be:
 -DCMAKE_PREFIX_PATH="C:\\libtorch"
 ```
 
-<img src="/images/2.png" width="100%" alt=""/>
+<img src="https://github.com/CrispenGari/ai-and-robotics-cpp/blob/main/libtorch/00_SETUP/images/2.png" width="100%" alt=""/>
 Click `Ctrl + S` to save.
 
 > Now we are ready to open the `.cpp` file and write some code.
